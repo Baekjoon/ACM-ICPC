@@ -29,7 +29,7 @@ void go(int x, int b){
         printf("%d",mod2(x,b));
     }
 }
-// Comments
+// Comments Modified
 int main(){
     int x,b;
     scanf("%d %d\n",&x,&b);
