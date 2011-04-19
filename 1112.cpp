@@ -5,11 +5,10 @@ int div2(int x, int y) {
         return x/y;
     }
     else {
-        if (x % y == 0) {
-            return x / y;
-        }
-        else if (y > 0) {
+        if (y > 0) {
             return x / y - 1;
+        } else if (x % y == 0) {
+            return x / y;
         }
         else {
             return x / y + 1;
