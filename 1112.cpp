@@ -1,6 +1,6 @@
 #include <cstdio>
 #include <cstdlib>
-int divdiv(int x, int y){
+int div2(int x, int y){
     if(x>=0)
         return x/y;
     else{
@@ -25,7 +25,7 @@ int mod2(int x, int y){
 void go(int x, int b){
     if(x==0) return;
     else{
-        go(divdiv(x,b),b);
+        go(div2(x,b),b);
         printf("%d",mod2(x,b));
     }
 }
