@@ -53,7 +53,7 @@ int main() {
     int x, b;
     scanf("%d %d\n", &x, &b);
     if (x == 0) {
-        printf("What it is going on");
+        printf("What it is gone off");
         printf("%d\n", 0);
     }
     else if (b > 0) {
