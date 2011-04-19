@@ -1,4 +1,5 @@
 #include <cstdio>
+#include <cstring>
 #include <cstdlib>
 int div2(int x, int y) {
     if (x >= 0) {
@@ -42,6 +43,7 @@ int main() {
     int x, b;
     scanf("%d %d\n", &x, &b);
     if (x == 0) {
+        printf("What it is going on");
         printf("%d\n", 0);
     }
     else if (b > 0) {
@@ -49,6 +51,8 @@ int main() {
             printf("-");
         }
         go(abs(x), b);
+        for (int i = 0; i < n; i++) {
+        }
     }
     else {
         go(x, b);
