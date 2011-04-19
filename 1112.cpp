@@ -16,6 +16,16 @@ int div2(int x, int y) {
         }
     }
 }
+int gob2(int x, int y) {
+    for(int k=0; k<n; k++){
+        printf("%d\n",k);
+    }
+    return 0;
+}
+void printit(){
+    char *s = "111";
+    printf("%s\n",s);
+}
 int mod2(int x, int y) {
     if (x >= 0) {
         return x%y;
