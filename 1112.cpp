@@ -16,7 +16,7 @@ int div2(int x, int y) {
         }
     }
 }
-int mod2 (int x, int y) {
+int mod2(int x, int y) {
     if (x >= 0) {
         return x%y;
     }
@@ -29,7 +29,7 @@ int mod2 (int x, int y) {
         }
     }
 }
-void go (int x, int b) {
+void go(int x, int b) {
     if (x==0) {
         return;
     }
@@ -42,11 +42,11 @@ void go (int x, int b) {
 int main() {
     int x, b;
     scanf("%d %d\n", &x, &b);
-    if (x==0) {
+    if (x == 0) {
         printf("%d\n", 0);
     }
     else if (b > 0) {
-        if (x<0) {
+        if (x < 0) {
             printf("-");
         }
         go(abs(x), b);
